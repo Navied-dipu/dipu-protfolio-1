@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1A4870;
+}
+
+/* header */
+
+.header {
+    height: 100px;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #3A6D8C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    z-index: 100;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+
+}
+
+.navber a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+/* Hero section */
+
+.hero-section {
+    height: 700px;
+    width: 100%;
+    background-image: url(hero-img.png);
+    background-size: cover;
+}
+
+.text-area {
+    height: 100vh;
+    padding-top: 200px;
+    padding-left: 100px;
+    max-width: 600px;
+    color: white;
+}
+
+.text-area h1 {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.text-area h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.text-area p {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.text-area button {
+    height: 35px;
+    width: 90px;
+    background-color: #F6600A;
+    border: 2px #FCCD2A;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* section */
+.section{
+    width: 70%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    /* column-gap: 20px;
+    row-gap: 20px; */
+    padding: 20px;
+    justify-content: space-evenly;
+    background-color: #FCCD2A;
+    border: 5px solid #FCCD2A;
+    border-radius: 5px;
+  
+    
+}
+ .box  {
+    height: 150px;
+    width: 150px;
+    background-color: #73EC8B;
+    border: 5px #FF6500;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: .5s ease-in-out ;
+}
+.box:hover  {
+  
+    background-color: #FFEB55;
+}
+   
+   
+
